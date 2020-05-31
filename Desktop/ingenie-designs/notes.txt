@@ -1,0 +1,1 @@
+custom css must be loaded into the head via <link href="<?php echo get_bloginfo('template_directory'); ?>/blog.css" rel="stylesheet"> instead of standard <link href="">
