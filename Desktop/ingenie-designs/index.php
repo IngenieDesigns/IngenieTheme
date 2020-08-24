@@ -20,12 +20,10 @@ get_header();
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main">
 <div id="content" class="site-content" role="main">
-	<div style="margin-top:30px;" class="container">
-	<h1 class="title"><?php wp_title(''); ?></h1>	
-	</div>
   
  <!-- Start the Loop. -->
   <div class="container">
+ <div class="row">
  <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
  	<!-- Test if the current post is in category 3. -->
@@ -35,7 +33,7 @@ get_header();
  	<?php if ( in_category( '3' ) ) : ?>
  		<div class="post-cat-three">
  	<?php else : ?>
- 		<div class="site-post">
+ 		<div class="site-post col-lg-6">
  	<?php endif; ?>
 
 
@@ -51,27 +49,29 @@ get_header();
 
  	<!-- Display the Post's content in a div box. -->
 
- 	<div class="entry container">
-		<div class="row">
-		<div style="padding-left: 0px;padding-right: 0px;" class="col-lg-9">
+ 	<div class="entry">
+ 	<div class="row no-gutters">
+		<div class="col-lg-7" style="padding-left: 0px;padding-right: 0px;">
  		<?php the_excerpt(); ?>
 			 </div>
-			<div style="width:100%;" class="col-lg-3">
+			<div class="col-lg-5">
 		<?php if ( has_post_thumbnail()) : ?>
     <a href="<?php the_permalink(); ?>" alt="<?php the_title_attribute(); ?>">
         <?php the_post_thumbnail(); ?>
     </a>
 <?php endif; ?>
 			</div>
-		</div>
- 	</div>
+ 	
 
 
  	<!-- Display a comma separated list of the Post's Categories. -->
 
  	<p class="postmetadata"><?php _e( 'Posted in' ); ?> <?php the_category( ', ' ); ?></p>
- 	</div> <!-- closes the first div box -->
-
+ 	
+ 	 <!-- closes the first div box -->
+ 	 </div>
+</div>
+</div>
 
  	<!-- Stop The Loop (but note the "else:" - see next line). -->
 
@@ -86,7 +86,7 @@ get_header();
  	<!-- REALLY stop The Loop. -->
  <?php endif; ?>
     </div>
-
+    </div>
 </div><!-- #content .site-content -->
 
 		</main><!-- .site-main -->

@@ -25,6 +25,9 @@
  * @since Twenty Sixteen 1.0
  */
 
+// Creating Shortcode for Product Sorting
+add_shortcode('wc_sorting','woocommerce_catalog_ordering');
+
 /**
  * Twenty Sixteen only works in WordPress 4.4 or later.
  */

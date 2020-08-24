@@ -6,7 +6,11 @@ body{font-family:'Open Sans',sans-serif;color:#555;font-size:medium; margin:0px;
 
 .blog-nav-item:focus,.blog-nav-item:hover{color:#000;text-decoration:none}.blog-nav .active{color:#000}.blog-nav .active:after{position:absolute;bottom:0;left:50%;width:0;height:0;margin-left:-5px;vertical-align:middle;content:" ";border-right:5px solid transparent;border-bottom:5px solid;border-left:5px solid transparent}.blog-header{padding-top:20px}.blog-title{margin-top:30px;margin-bottom:0;font-size:60px;font-weight:400;}.blog-description{font-size:large;color:#999;margin-top:0;padding-left:5px}.blog-main{font-size:18px;line-height:1.5}.sidebar-module{padding:15px;margin:0 -15px 15px}.sidebar-module-inset{padding:15px;background-color:#f5f5f5;border-radius:4px}.blog-footer p:last-child,.sidebar-module-inset ol:last-child,.sidebar-module-inset p:last-child,.sidebar-module-inset ul:last-child{margin-bottom:0}.pager{text-align:left}.pager>li>a{width:140px;padding:10px 20px;text-align:center;border-radius:30px} .postid-23 .blog-post-title{margin-bottom:5px;font-size:40px; -webkit-border-top-right-radius: 20px;-moz-border-radius-topright: 20px;border-top-right-radius: 20px;     padding-left: 5px;
     padding-bottom: 5px;}.blog-post-title{margin-bottom:5px;font-size:40px; -webkit-border-top-right-radius: 20px;-moz-border-radius-topright: 20px;border-top-right-radius: 20px;     padding-left: 5px;
-    padding-bottom: 5px;}.blog-post-meta{margin-bottom:20px;color:#999; padding-left:5px;}.blog-footer{padding:20px 0;color:white;text-align:left;background-color:#2aaa94;border-top:0 solid #e5e5e5}.navbar-default{margin-left:-50px;z-index:1}.headertext{padding-top:10px}.headertext p{font-size:large}.headerlogos{display:block}.headerlogos img{height:70px}.blog-header{padding-bottom:0}.featurestext,.testimonialtext,h2 p{padding-left:30px}.features{background-color:#0569a7}.features h2,.features p,.testimonial h2{color:#fff;text-transform:uppercase}.features h2,.testimonial h2{font-weight:700;padding-bottom:5px;padding-top:10px}.blog-nav li a,.testimonial p{color:#fff}.testimonial{background-color:#144066}.testimonial img{height:150px;margin-top:5px;margin-right:15px;margin-bottom:15px}.middle-section{margin-bottom:0px}.sectionheader{margin:auto;text-align:center}.sectionheader h2{margin-bottom:20px;padding-bottom:10px;text-transform:uppercase;font-weight:bolder;display:inline-block} .blog-nav li{position:relative;display:inline-block;padding:10px;font-weight:500}.blog-post-meta{}.row{margin:0}ul{padding-left:0}#breadcrumbs,#breadcrumbs p{margin-left:15px; background-color:#f5f5f5;}#breadcrumbs p{margin-top:5px}#myCarousel,.headertext{margin-top:15px}.logos img{height:30px;margin-right:10px;float:left}.logo{padding:0}.headertext,.logos{z-index:4}.navbar-default{background-color:#fff!important;border:0}.pageheader{background-color:#0569a7;border-radius:15px 0 0 0;-moz-border-radius:15px 0 0 0;-webkit-border-radius:15px 0 0 0;border:0 solid #000;margin-bottom:-10px}.pageheaderh2 h2{color:#fff;text-transform:uppercase;font-size:large;padding-top:25px;padding-bottom:20px}.pagecontent{background-color:#edf0f2;padding-top:10px}.footer{color:#fff;text-transform:uppercase;font-size:large;padding-top:25px;padding-bottom:30px;padding-left:20px;background-color:#0569a7;margin-bottom:40px}a.footer:link{padding:0;margin:0}a.footer:link,a.footer:visited{color:#fff;text-decoration:none}a.footer:hover{color:#fff;text-decoration:underline;font-weight:700}a.footer:active{color:#fff}
+    padding-bottom: 5px;}.blog-post-meta{margin-bottom:20px;color:#999; padding-left:5px;}.blog-footer{padding:20px 0;color:white;text-align:left;background-color:#2aaa94;border-top:0 solid #e5e5e5}.navbar-default{margin-left:-50px;z-index:1}.headertext{padding-top:10px}.headertext p{font-size:large}.headerlogos{display:block}.headerlogos img{height:70px}.blog-header{padding-bottom:0}.featurestext,.testimonialtext,h2 p{padding-left:30px}.features{background-color:#0569a7}.features h2,.features p,.testimonial h2{color:#fff;text-transform:uppercase}.features h2,.testimonial h2{font-weight:700;padding-bottom:5px;padding-top:10px}.blog-nav li a,.testimonial p{color:#fff}.testimonial{background-color:#144066}.testimonial img{height:150px;margin-top:5px;margin-right:15px;margin-bottom:15px}.middle-section{margin-bottom:0px}.sectionheader{margin:auto;text-align:center}.sectionheader h2{margin-bottom:20px;padding-bottom:10px;text-transform:uppercase;font-weight:bolder;display:inline-block} .blog-nav li{position:relative;display:inline-block;padding:10px;font-weight:500}.blog-post-meta{}.row{margin:0}ul{padding-left:0}#breadcrumbs,#breadcrumbs p{margin-left:15px; background-color:#f5f5f5;}#breadcrumbs p{margin-top:5px}#myCarousel,.headertext{margin-top:15px}.logos img{height:30px;margin-right:10px;float:left}.logo{padding:0}.headertext,.logos{z-index:4}.navbar-default{background-color:#fff!important;border:0}.pageheader{background-color:#0569a7;border-radius:15px 0 0 0;-moz-border-radius:15px 0 0 0;-webkit-border-radius:15px 0 0 0;border:0 solid #000;margin-bottom:-10px}.pageheaderh2 h2{color:#fff;text-transform:uppercase;font-size:large;padding-top:25px;padding-bottom:20px}.pagecontent{background-color:#edf0f2;padding-top:10px}
+
+.footer{color:#fff;background-color:#0569a7; width:100%; position:absolute; bottom:1;}
+
+a.footer:link{padding:0;margin:0}a.footer:link,a.footer:visited{color:#fff;text-decoration:none}a.footer:hover{color:#fff;text-decoration:underline;font-weight:700}a.footer:active{color:#fff}
 
 @media only screen and (min-width:240px){.wpcf7-text,.wpcf7-textarea{max-width:100%;padding:10px 1px!important}.headertext{padding-top:20px;}.headertext p{font-size:smaller;}.headerlogos img{height:30px;}
 
@@ -674,17 +678,11 @@ font-family: "Open Sans", sans-serif;}
 }
 
 .text {
-  color: white;
-  font-size: 25px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-  display:block;
-  font-weight:bolder;
-  text-transform:uppercase;
+  	display: block;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+	margin-top:5px;
 }
 
 .blog-nav li {
